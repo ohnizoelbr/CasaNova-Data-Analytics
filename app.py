@@ -101,7 +101,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 if views_dir is None:
-    st.warning("⚠️ **Aviso:** A pasta `sql_views` não foi encontrada na nuvem. Certifique-se de que a pasta `reports/sql_views` foi enviada corretamente para o repositório GitHub.")
+    st.warning("⚠️ **Aviso:** A pasta `sql_views` não foi encontrada. Certifique-se de que os arquivos de dados estão na estrutura correta.")
 
 # -----------------------------------------------------------------------------
 # Métricas e KPIs

@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 data/casanova.db-journal
+check_project.py
