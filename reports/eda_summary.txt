@@ -1,0 +1,50 @@
+RAIO-X ESTATÍSTICO DAS TABELAS (DATA/RAW)
+==================================================
+📄 TABELA: clientes.csv
+   • Dimensão: 12000 linhas x 8 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: email: 600
+   • Colunas (8): ['cliente_id', 'nome', 'cpf', 'email', 'telefone', 'cidade', 'estado', 'data_cadastro']
+--------------------------------------------------
+📄 TABELA: lojas.csv
+   • Dimensão: 7 linhas x 6 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: Nenhum
+   • Colunas (6): ['loja_id', 'nome_loja', 'cidade', 'estado', 'tipo_canal', 'data_abertura']
+--------------------------------------------------
+📄 TABELA: produtos.csv
+   • Dimensão: 150 linhas x 6 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: categoria: 6
+   • Colunas (6): ['produto_id', 'nome_produto', 'categoria', 'preco_tabela', 'custo', 'ativo']
+--------------------------------------------------
+📄 TABELA: pedidos.csv
+   • Dimensão: 45904 linhas x 6 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: Nenhum
+   • Colunas (6): ['pedido_id', 'cliente_id', 'loja_id', 'canal', 'data_pedido', 'status']
+--------------------------------------------------
+📄 TABELA: itens_pedido.csv
+   • Dimensão: 82499 linhas x 6 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: Nenhum
+   • Colunas (6): ['item_id', 'pedido_id', 'produto_id', 'quantidade', 'preco_unitario', 'desconto']
+--------------------------------------------------
+📄 TABELA: estoque.csv
+   • Dimensão: 25200 linhas x 4 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: Nenhum
+   • Colunas (4): ['produto_id', 'loja_id', 'data_snapshot', 'quantidade_disponivel']
+--------------------------------------------------
+📄 TABELA: funil_ecommerce.csv
+   • Dimensão: 13158 linhas x 7 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: Nenhum
+   • Colunas (7): ['data', 'categoria', 'dispositivo', 'visualizacoes', 'add_carrinho', 'checkout_iniciado', 'compra_concluida']
+--------------------------------------------------
+📄 TABELA: concorrencia_precos.csv
+   • Dimensão: 3600 linhas x 4 colunas
+   • Linhas Duplicadas: 0
+   • Val. Nulos por Coluna: Nenhum
+   • Colunas (4): ['produto_id', 'mes_referencia', 'preco_casanova', 'preco_medio_mercado']
+--------------------------------------------------

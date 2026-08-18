@@ -1,0 +1,8 @@
+loja_id,nome_loja,cidade,estado,tipo_canal,data_abertura
+L001,CasaNova Rio de Janeiro,RIO DE JANEIRO,RJ,fisica,2019-03-04
+L002,CasaNova São Paulo,São Paulo,SP,fisica,2013-04-01
+L003,CasaNova Belo Horizonte,Belo Horizonte,MG,fisica,2012-04-12
+L004,CasaNova Curitiba,Curitiba,PR,fisica,2020-04-25
+L005,CasaNova Porto Alegre,Porto Alegre,RS,fisica,2015-01-31
+L006,CasaNova Salvador,Salvador,BA,fisica,2014-09-30
+L100,CasaNova Loja Virtual,São Paulo,SP,ecommerce,2019-03-01
