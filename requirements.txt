@@ -1,9 +1,6 @@
+streamlit
 pandas
+plotly
 numpy
-faker
-matplotlib
-seaborn
 openpyxl
 sqlalchemy
-jupyter
-ydata-profiling
